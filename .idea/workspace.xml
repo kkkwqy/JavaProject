@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07688c21-3a1f-4261-aea4-ea4c30f440ac" name="Default Changelist" comment="" />
+    <list default="true" id="07688c21-3a1f-4261-aea4-ea4c30f440ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cn/sxt/webserver/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaProject/cn/sxt/tcpchat/chat05/Chat$Channel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaProject/cn/sxt/tcpchat/chat05/Chat$Channel.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +20,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -29,7 +38,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1R335krmbohH2Vg0MbfqnWrPpJE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/cn/sxt/tcpchat/chat05" />
@@ -73,26 +84,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Server02">
     <configuration name="Chat (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.sxt.tcpchat.chat05.Chat" />
       <module name="javaProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.sxt.tcpchat.chat05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Chat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.sxt.tcpchat.chat04.Chat" />
-      <module name="javaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.sxt.tcpchat.chat04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,18 +124,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Server01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sxt.webserver.Server01" />
+      <module name="javaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.sxt.webserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sxt.webserver.Server02" />
+      <module name="javaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.sxt.webserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Chat" />
       <item itemvalue="Application.Chat (1)" />
       <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.Server01" />
+      <item itemvalue="Application.Server02" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Server02" />
+        <item itemvalue="Application.Server01" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Chat (1)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Chat" />
       </list>
     </recent_temporary>
   </component>
@@ -168,11 +194,28 @@
       <workItem from="1582963340949" duration="6646000" />
       <workItem from="1583028788794" duration="2793000" />
       <workItem from="1583031624247" duration="13603000" />
+      <workItem from="1583109736024" duration="1188000" />
+      <workItem from="1583127921763" duration="512000" />
+      <workItem from="1583128492425" duration="1773000" />
+      <workItem from="1583130941304" duration="4199000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
